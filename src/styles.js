@@ -8,6 +8,8 @@ const useStyles = makeStyles((theme) => ({
     navbar:{
         margin:10,
         color:'white',
+        fontWeight:'bold',
+        textShadow:'2px 2px grey',
     },
 
     
@@ -15,10 +17,12 @@ const useStyles = makeStyles((theme) => ({
         position:"absolute",
         right:20,
         top:12.4,
+
     },
     sliderComp:{
         marginLeft:'10vw',    
         marginTop:'2vh',
+
 
     },
     cardGrid:{
@@ -30,14 +34,16 @@ const useStyles = makeStyles((theme) => ({
         diplay:'flex',
         flexDirection:'columnn',
         backgroundColor:'#fff7f7',
-        border:'2px solid red',
+        border:'2px solid black',
         borderRadius:'5%',
+        boxShadow: '5px 10px #474973'
+
     },
     cardContent:{
         flexGrow:1,
     },
     CardHead:{
-        color:'red',
+        color:'#1e0963',
         textAlign:'center',
         fontWeight:'bold',
         fontSize:'2rem',
