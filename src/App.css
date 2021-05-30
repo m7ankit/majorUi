@@ -1,0 +1,46 @@
+/* body{
+  background:url('https://cdn.pixabay.com/photo/2016/04/18/16/22/gradient-1336854_960_720.jpg');
+} */
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #FFE4B5	;
+  ;
+}
+
+.social-container {
+    padding: 25px 50px;
+    text-align: center;
+    font-size: large;
+}
+a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+}
+a.social:hover {
+    transform: translateY(-2px);
+}
+a.youtube {
+    color: #eb3223;
+  }
+  
+  a.facebook {
+    color: #4968ad;
+  }
+  
+  a.twitter {
+    color: #49a1eb;
+  }
+  
+  a.instagram {
+    color: black;
+  }
+*{
+  margin: 0;
+  padding: 0;  
+}
+.social{
+  font-weight: bold;
+}
+
